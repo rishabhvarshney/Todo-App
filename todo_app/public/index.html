@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+    <div class="head">My Todos</div>
+    <h1>Active Todos</h1>
+    <div class="activeTodos" id="activeTodos">
+
+    </div>
+
+    <hr>
+    <h1 style="color: gray">Add Todo</h1>
+    <div class="addTodos" id="addTodos">
+
+        <form name="addNewTodoForm">
+            <input type="text" placeholder="Todo Title Goes Here" id="new_todo_title" name="new_todo_title"/>
+            <input type="button" name="bttn" id="bttn" value="ADD" onclick="newTodo()"/>
+        </form>
+    </div>
+
+    <hr>
+    <h1>Completed Todos<p id="hidebutton" onclick="hide_completed_items()">Hide Completed Items</p></h1>
+    <div class="completedTodos" id="completedTodos">
+
+    </div>
+
+    <hr>
+    <h1>Deleted Todos<p id="hidedelbutton" onclick="hide_deleted_items()">Hide Deleted Items</p></h1>
+    <div class="deletedTodos" id="deletedTodos">
+
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

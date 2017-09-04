@@ -1,0 +1,84 @@
+div.head {
+    background-color: khaki;
+    text-align: center;
+    vertical-align:middle;
+    font-size: 30px;
+    height: 80px;
+    line-height: 75px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 300px;
+    font-size: 80%;
+    margin-left: 5%;
+}
+input[type=button] {
+    border: none;
+    border-radius: 4px;
+    background-color:dodgerblue;
+    color:black;
+    text-align: center;
+    font-size: 16px;
+    width: 80px;
+    height: 35px;
+}
+div.Todo{
+    margin-left: 5%;
+}
+input{
+    height:40px;;
+}
+div.activeTodos{
+    margin-left: 5%;
+}
+div.addTodos{
+    margin-left: 5%;
+}
+checkbox{
+    align-self: flex-start;
+}
+div.completedTodos{
+    margin-left: 5%;
+    color: green;
+    text-decoration: line-through;
+    text-decoration-color: green;
+}
+div.deletedTodos{
+    margin-left: 5%;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    color: red;
+}
+h1{
+    font-weight: bold;
+    font-size: 125%;
+    margin-left: 10%;
+}
+input[type="checkbox"] {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin-left: 3%;
+}
+span{
+    margin-left: 5%;
+}
+button.crossbutton{
+    color: red;
+    background-color: transparent;
+    float: right;
+    margin-right: 60%;
+    border: hidden;
+}
+h1 p{
+    float: right;
+    margin-right: 50%;
+    font-size: 75%;
+    color: blue;
+    text-decoration: underline;
+    margin-top: auto;
+}
+div.deletedTodos span{
+    margin-left: 10%;
+}
